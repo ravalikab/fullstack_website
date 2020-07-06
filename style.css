@@ -1,0 +1,163 @@
+* {
+  font-family: Avenir;
+  letter-spacing: 1px;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  margin-top: 120px;
+}
+.options {
+  float: right;
+}
+.text-one {
+  font-size: 50px;
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
+/* Header class  */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.options {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-right: 100px;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 100px;
+}
+.header-btn {
+  color: white;
+  background-color: #1a90eb;
+}
+.row {
+  display: flex;
+  width: 1000px;
+  padding: 20px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 14px;
+}
+.services {
+  height: 400px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #dfeaed;
+  margin-right: 30px;
+}
+.services:hover {
+  box-shadow: 0 1px 8px black;
+  color: ;
+}
+.not-active {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+.services-link {
+  color: #1f87f0;
+}
+.section {
+  margin-bottom: 100px;
+}
+.row1 {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+}
+.quotes {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+}
+.vr {
+  border-left: 1px solid #dfeaed;
+  height: 200px;
+  margin-top: 20px;
+}
+.row2 {
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  background-color: #edf4fa;
+}
+.img1 {
+  margin-right: 250px;
+}
+.help-content {
+  width: 45%;
+  margin-left: 15%;
+  margin-top: 8%;
+}
+/*button styles */
+button {
+  text-align: center;
+  padding: 10px 28px;
+  margin: 2px 2px;
+  cursor: pointer;
+  color: #1a90eb;
+  background-color: white;
+  border-color: #1a90eb;
+  font-weight: 900;
+}
+.blue-btn {
+  background-color: #1a90eb;
+  color: white;
+}
+.other-btn:hover {
+  background-color: #1a90eb;
+  color: white;
+}
+.row3 {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+.footer {
+  margin-right: 30px;
+}
+.footer1 {
+  width: 32%;
+  font-size: 14px;
+}
+.footer2 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  font-size: 14px;
+  line-height: 2;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 10px;
+}
+.footer-text {
+  font-size: 14px;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/* .section {
+  border: 2px solid #555;
+} */
